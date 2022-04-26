@@ -19,15 +19,29 @@ h1 {
 #letter {
   background-color: white;
   box-shadow: 2px 3px 7px rgba(0, 0, 0, .6);
-  padding: 120px;
   transform: rotate(.5deg);
 }
 
+.letter-header {
+  padding-left: 75px;
+  padding-top: 70px;
+}
 
+.letter-header img {
+  opacity: .5;
+  width: 200px;
+}
 
-.signature-ctn {
+.letter-body {
+  padding: 50px 120px 120px 120px;
+}
+
+.signature-ctn p {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.signature-ctn .signature {
   font-family: 'Ms Madi', cursive;
   font-size: 3rem;
-  max-width: 30%;
-  text-align: right;
 }
