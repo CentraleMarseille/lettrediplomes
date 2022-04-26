@@ -46,25 +46,26 @@ h1 {
   font-size: 3rem;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 576px) {
   body {
-    font-size: 2.7rem;
-  }
-
-  .letter-header img {
-    width: 270px;
+    font-size: 3rem;
   }
 
   h1 {
-    font-size: 3.3rem;
+    font-size: 3.5rem;
   }
 
   #letter {
-    transform: rotate(.2deg);
+    transform: rotate(0deg);
   }
 
   .letter-header {
     padding-left: 20px;
+    padding-top: 75px;
+  }
+
+  .letter-header img {
+    width: 240px;
   }
 
   .letter-body {
